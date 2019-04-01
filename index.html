@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Enicio de Haas">
+  <meta name="keywords" content="BMI calculator met AJAX">
+  <title>BMI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="vlak">
+    <div class="input">
+      <div id="vraag">
+        <h3>Bereken je BMI</h3>
+        <div id="input">
+          <strong>Ik ben een:</strong><br>
+          <div class="man"><label><input type="radio" name="manVrouw">Man</label></div>
+          <div class="vrouw"><label><input type="radio" name="manVrouw">Vrouw</label></div>
+          <div class="leeftijd left">Leeftijd:
+            <div><input type="number" id="leeftijd" onfocus="this.value=''"></div>
+          </div>
+          <div class="grootheid">Jaar</div>
+          <div class="gewicht left">Gewicht:
+            <div><input type="number" size="20" id="gewicht" onfocus="this.value=''"></div>
+          </div>
+          <div class="grootheid">KG</div>
+          <div class="lengte left">Lengte:
+            <div><input type="number" size="20" id="lengte" onfocus="this.value=''"></div>
+          </div>
+          <div class="grootheid">CM</div><br>
+        </div>
+        <input type="button" value="BEREKEN" id="bereken">
+      </div>
+      <br>
+      <div id="resultaat"></div>
+    </div>
+  </div>
+  <script src="ajax.js"></script>
+</body>
+
+</html>

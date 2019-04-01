@@ -1,0 +1,96 @@
+body{
+  font-family: sans-serif;
+}
+
+h3{
+  padding-left: 8px;
+  font-size: 1.5em;
+}
+
+strong{
+  padding-left: 8px;
+}
+
+.vlak{
+  width: 400px;
+  height: 400px;
+  margin: auto;
+  background-color: lightgrey;
+  border: 2px solid lime;
+  border-radius: 70px;
+}
+
+.input{
+  width: 50%;
+  margin-left: 25%;
+  text-align: left;
+}
+
+input[type=number]{
+  width: 50px;
+}
+
+#input {
+  display: grid;
+  grid-template-columns: 142px 85px;
+  text-align: left;
+  grid-row-gap: .2em;
+}
+
+#input .left div{
+  text-align: right;
+  display: inline;
+}
+
+.grootheid{
+  grid-column: 2/3;
+  padding: .5em;
+  font-weight: 600;
+}
+
+.man input, .vrouw input{
+  margin: 0;
+  margin-right: 5px;
+}
+
+.vrouw, .man{
+  padding: .5em;
+}
+
+.vrouw{
+  grid-column: 2/3;
+  margin-left: -80px;
+}
+
+.left{
+  grid-column: 1/2;
+  padding: .5em;
+  width: 125px;
+  border-radius: 8px;
+  color: #fff;
+}
+
+.leeftijd{
+  background-color: darkgreen;
+}
+
+.gewicht{
+  background-color: forestgreen;
+}
+
+.lengte{
+  background-color: limegreen;
+}
+
+input[type=button]{
+ width: 140px;
+ background-color: lime;
+ padding: .5em;
+ border-radius: 6px;
+ color: #fff;
+ font-size: 20px;
+ text-decoration: none;
+ border: none;
+ text-align: center;
+ cursor: pointer;
+}
